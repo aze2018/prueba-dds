@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* ZTBCS
+web: java -Dserver.port=$PORT -jar target/ZTBCS.jar
